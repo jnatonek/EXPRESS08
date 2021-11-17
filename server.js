@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 const PORT = 3000;
-var path = require("path");
+var PORT = process.env.PORT || 3000;
 const bodyParser = require("body-parser");
 var users = [
     {nick:"111", email:"111@w.pl"},
